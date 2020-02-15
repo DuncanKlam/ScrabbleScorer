@@ -1,10 +1,10 @@
 import java.util.List;
 
 public class LetterValues {
-    List<Character> letters;
+    char[] letters;
     int value;
 
-    public LetterValues(int v, List l){
+    public LetterValues(int v, char[] l){
         value = v;
         letters = l;
     }
@@ -15,7 +15,7 @@ public class LetterValues {
                 return value;
             }
         }
-        return 1;
+        return 0;
     }
 
 }
