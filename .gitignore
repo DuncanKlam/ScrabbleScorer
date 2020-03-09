@@ -29,3 +29,5 @@ hs_err_pid*
 .idea/workspace.xml
 pom.xml
 ScrabbleWordScore.iml
+.idea/modules.xml
+.idea/ScrabbleScorer.iml
