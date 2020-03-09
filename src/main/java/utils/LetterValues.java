@@ -1,6 +1,7 @@
-import java.util.List;
+package utils;
 
 public class LetterValues {
+
     char[] letters;
     int value;
 
@@ -9,13 +10,16 @@ public class LetterValues {
         letters = l;
     }
 
-    public int isContainedInList(char aCharacter){
+    public boolean characterIsContainedInList(char aCharacter){
         for (char letter : letters){
             if (aCharacter == letter){
-                return value;
+                return true;
             }
         }
-        return 0;
+        return false;
     }
 
+    public int getValue() {
+        return value;
+    }
 }
